@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="100"
+    >
+
+    <TextView
+        android:id="@+id/textFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="15"
+        android:paddingLeft="3dp"
+        android:paddingTop="8dp"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:paddingTop="8dp"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_weight="30"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textLastName"/>
+
+    <TextView
+        android:paddingTop="8dp"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_weight="25"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textFavFood"/>
+
+    <ImageButton
+        android:paddingTop="8dp"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_weight="30"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/closeBtn"
+        android:src="@drawable/closewindow"
+        android:onClick="closeBtn"/>
+
+</LinearLayout>
+
+
+</ScrollView>
